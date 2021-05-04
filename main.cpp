@@ -2,11 +2,25 @@
 #include "product.h"
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+struct Point {
+    int x;
+    int y;
+};
 
-    auto* p = new product();
-    p->setName("Phone");
-    cout << "Name: " + p->getName();
-    return 0;
+//void AddX(this Point p, int x)
+//{
+//
+//}
+
+int main(int argc, char** argv) {
+    cout << "Hello, World!" << std::endl;
+    Point p;
+    p.x = 5;
+    p.x += 10;
+    Point* ptr_p;
+    ptr_p = new Point();
+    ptr_p->x = p.x;
+    cout << ptr_p->x - 10;
 }
+
+

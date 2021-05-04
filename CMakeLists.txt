@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp product.cpp product.h)
+add_executable(untitled main.cpp product.cpp product.h grocery.cpp grocery.h)

@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/artem/CLionProjects/untitled/main.cpp
+C:/Users/koler/CLionProjects/test_cpp_proj/main.cpp
 iostream
 -
 product.h
-/home/artem/CLionProjects/untitled/product.h
+C:/Users/koler/CLionProjects/test_cpp_proj/product.h
 iostream
 -
 
-/home/artem/CLionProjects/untitled/product.cpp
-product.h
-/home/artem/CLionProjects/untitled/product.h
-
-/home/artem/CLionProjects/untitled/product.h
+C:/Users/koler/CLionProjects/test_cpp_proj/product.h
 string
 -
 

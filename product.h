@@ -10,10 +10,16 @@ using namespace std;
 
 class product {
 public:
-    void setName(const string name);
+    product();
+    product(const string name);
+
+    void setPtrName(int* name);
+    void virtual setName(const string& name);
     string getName();
+    int* getPtrName();
 private:
     string _name;
+    int* _ptr_name;
 };
 
 
